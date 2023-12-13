@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg05"
+    tools:context=".kandy">
+
+    <TextView
+        android:id="@+id/txt_kandy2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="KANDY"
+        android:textColor="#03D2BE"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_central3" />
+
+    <TextView
+        android:id="@+id/txt_central3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="CENTRAL"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="301dp"
+        android:layout_height="491dp"
+        android:contentDescription="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_kandy2"
+        app:layout_constraintVertical_bias="0.431">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imgbtn_kabaragala"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp"
+                android:contentDescription="true"
+                app:srcCompat="@drawable/kabaragala" />
+
+            <TextView
+                android:id="@+id/txt_kabaragala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KABARAGALA"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <ImageButton
+                android:id="@+id/imgbtn_narampanawa"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp"
+                android:contentDescription="true"
+                app:srcCompat="@drawable/narampanawa" />
+
+            <TextView
+                android:id="@+id/txt_narampanawa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NARAMPANAWA"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <ImageButton
+                android:id="@+id/imgbtn_belwood"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_margin="10dp"
+                android:contentDescription="true"
+                app:srcCompat="@drawable/belwood" />
+
+            <TextView
+                android:id="@+id/txt_belwood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BELWOOD"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <ImageButton
+                android:id="@+id/imgbtn_rangala"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_margin="10dp"
+                android:contentDescription="true"
+                app:srcCompat="@drawable/rangala01" />
+
+            <TextView
+                android:id="@+id/txt_rangala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RANGALA"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <ImageButton
+                android:id="@+id/imgbtn_hulugaga"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_margin="10dp"
+                android:contentDescription="true"
+                app:srcCompat="@drawable/hulugaga01" />
+
+            <TextView
+                android:id="@+id/txt_hulugaga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HULUGAGA"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <ImageButton
+                android:id="@+id/imgbtn_kalabokka"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_margin="10dp"
+                android:contentDescription="true"
+                app:srcCompat="@drawable/kalabokka02" />
+
+            <TextView
+                android:id="@+id/txt_kalabokka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KALABOKKA"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

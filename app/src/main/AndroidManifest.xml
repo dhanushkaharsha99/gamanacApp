@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Gamanac"
+        tools:targetApi="31">
+        <activity
+            android:name=".polonnaruwa"
+            android:exported="false" />
+        <activity
+            android:name=".puttalama"
+            android:exported="false" />
+        <activity
+            android:name=".kurunagala"
+            android:exported="false" />
+        <activity
+            android:name=".dumbara_ella"
+            android:exported="false" />
+        <activity
+            android:name=".hambanthota"
+            android:exported="false" />
+        <activity
+            android:name=".mathara"
+            android:exported="false" />
+        <activity
+            android:name=".galle"
+            android:exported="false" />
+        <activity
+            android:name=".kaluthara"
+            android:exported="false" />
+        <activity
+            android:name=".gampaha"
+            android:exported="false" />
+        <activity
+            android:name=".colombo"
+            android:exported="false" />
+        <activity
+            android:name=".monaragala"
+            android:exported="false" />
+        <activity
+            android:name=".badulla"
+            android:exported="false" />
+        <activity
+            android:name=".Compass"
+            android:exported="false" />
+        <activity
+            android:name=".Mapkalabokka"
+            android:exported="false" />
+        <activity
+            android:name=".kalabokkakandy"
+            android:exported="false" />
+        <activity
+            android:name=".Maphulugaga"
+            android:exported="false" />
+        <activity
+            android:name=".Hulugagakandy"
+            android:exported="false" />
+        <activity
+            android:name=".Maprangala"
+            android:exported="false" />
+        <activity
+            android:name=".Rangalakandy"
+            android:exported="false" />
+        <activity
+            android:name=".Mapbelwood"
+            android:exported="false" />
+        <activity
+            android:name=".Bellwoodkandy"
+            android:exported="false" />
+        <activity
+            android:name=".Mapnarampanawa"
+            android:exported="false" />
+        <activity
+            android:name=".NarampanawaKandy"
+            android:exported="false" />
+        <activity
+            android:name=".forgotpassword"
+            android:exported="false" />
+        <activity
+            android:name=".SignUP"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".Mapkabaragala"
+            android:exported="false" />
+        <activity
+            android:name=".kabaragalakandy"
+            android:exported="false" />
+        <activity
+            android:name=".nuwaraeliya"
+            android:exported="false" />
+        <activity
+            android:name=".mathale"
+            android:exported="false" />
+        <activity
+            android:name=".kandy"
+            android:exported="false" />
+        <activity
+            android:name=".north_east"
+            android:exported="false" />
+        <activity
+            android:name=".northcentral"
+            android:exported="false" />
+        <activity
+            android:name=".sabaragamuwa"
+            android:exported="false" />
+        <activity
+            android:name=".wayamba"
+            android:exported="false" />
+        <activity
+            android:name=".south"
+            android:exported="false" />
+        <activity
+            android:name=".west"
+            android:exported="false" />
+        <activity
+            android:name=".uwa"
+            android:exported="false" />
+        <activity
+            android:name=".central"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBpFgJ8Hb2shMQag-dXQ5T9HmpYfpBNh5U" />
+    </application>
+
+</manifest>

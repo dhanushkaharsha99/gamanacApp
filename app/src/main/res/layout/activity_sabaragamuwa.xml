@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg03"
+    tools:context=".sabaragamuwa">
+
+    <ImageButton
+        android:id="@+id/imgbtn_kegalle"
+        android:layout_width="293dp"
+        android:layout_height="200dp"
+        android:contentDescription="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtn_rathnapura"
+        app:layout_constraintVertical_bias="0.289"
+        app:srcCompat="@drawable/kegalle" />
+
+    <TextView
+        android:id="@+id/txt_kegalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kegalle"
+        android:textColor="#191717"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imgbtn_kegalle"
+        app:layout_constraintEnd_toEndOf="@+id/imgbtn_kegalle"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/imgbtn_kegalle"
+        app:layout_constraintTop_toTopOf="@+id/imgbtn_kegalle"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_rathnapura"
+        android:layout_width="293dp"
+        android:layout_height="209dp"
+        android:contentDescription="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_sabara"
+        app:layout_constraintVertical_bias="0.103"
+        app:srcCompat="@drawable/rathnapura" />
+
+    <TextView
+        android:id="@+id/txt_rathnapura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RATHNAPURA"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imgbtn_rathnapura"
+        app:layout_constraintEnd_toEndOf="@+id/imgbtn_rathnapura"
+        app:layout_constraintStart_toStartOf="@+id/imgbtn_rathnapura"
+        app:layout_constraintTop_toTopOf="@+id/imgbtn_rathnapura" />
+
+    <TextView
+        android:id="@+id/txt_sabara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="SABARAGAMUWA"
+        android:textColor="#03D2BE"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_8sl" />
+
+    <TextView
+        android:id="@+id/txt_8sl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sri Lanka"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+</androidx.constraintlayout.widget.ConstraintLayout>

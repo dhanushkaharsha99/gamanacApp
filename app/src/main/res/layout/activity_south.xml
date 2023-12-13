@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg03"
+    tools:context=".south">
+
+    <ImageButton
+        android:id="@+id/imgbtn_hambanthota"
+        android:layout_width="280dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="View"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtn_matara"
+        app:layout_constraintVertical_bias="0.071"
+        app:srcCompat="@drawable/hambanthota" />
+
+    <TextView
+        android:id="@+id/txt_matara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HAMBANTHOTA"
+        android:textColor="#F8F3F3"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imgbtn_hambanthota"
+        app:layout_constraintEnd_toEndOf="@+id/imgbtn_hambanthota"
+        app:layout_constraintStart_toStartOf="@+id/imgbtn_hambanthota"
+        app:layout_constraintTop_toTopOf="@+id/imgbtn_hambanthota"
+        app:layout_constraintVertical_bias="0.463" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_matara"
+        android:layout_width="280dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="View"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtn_galle2"
+        app:srcCompat="@drawable/matara" />
+
+    <TextView
+        android:id="@+id/txt_hambanthota"
+        android:layout_width="143dp"
+        android:layout_height="47dp"
+        android:text="MATARA"
+        android:textColor="#F1ECEC"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imgbtn_matara"
+        app:layout_constraintEnd_toEndOf="@+id/imgbtn_matara"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/imgbtn_matara"
+        app:layout_constraintTop_toTopOf="@+id/imgbtn_matara"
+        app:layout_constraintVertical_bias="0.548" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_galle2"
+        android:layout_width="280dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="View"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_South"
+        app:srcCompat="@drawable/galle" />
+
+    <TextView
+        android:id="@+id/txt_galle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GALLE"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imgbtn_galle2"
+        app:layout_constraintEnd_toEndOf="@+id/imgbtn_galle2"
+        app:layout_constraintStart_toStartOf="@+id/imgbtn_galle2"
+        app:layout_constraintTop_toTopOf="@+id/imgbtn_galle2" />
+
+    <TextView
+        android:id="@+id/txt_South"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="SOUTH"
+        android:textColor="#03D2BE"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_5sl" />
+
+    <TextView
+        android:id="@+id/txt_5sl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Sri Lanka"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

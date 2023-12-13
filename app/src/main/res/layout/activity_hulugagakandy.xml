@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg06"
+    tools:context=".Hulugagakandy">
+
+    <ImageView
+        android:id="@+id/imgview_hulugaga"
+        android:layout_width="323dp"
+        android:layout_height="219dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/hulugaga" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="HULUGAGA ALLA"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_kandy7" />
+
+    <TextView
+        android:id="@+id/txt_kandy7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="KANDY"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_loc_hulugaga"
+        android:layout_width="183dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="44dp"
+        android:text="Location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgview_hulugaga" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="341dp"
+        android:layout_height="175dp"
+        android:contentDescription="true"
+        android:duplicateParentState="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_loc_hulugaga">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_kabaragala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" The beautiful Hulugaga waterfall is a waterfall located in Hulugaga town,
+ which is about 30 km from Kandy. You can reach here when you come from Mahnuwara to
+Wattegama and pass Panwila to reach Hulugaga.
+This is a popular destination for many tourists who want an
+unquestionable experience of waterfalls. The city is located very close to Knuckles,
+so the streams in the heart of the forest flow through this city.
+It is 75 meters high and it flows under the bridge at the entrance of Hulugaga town.
+A short distance further the waterfall has made its way down and nowadays a ticket of
+30 rupees per person is required to enter...
+This waterfall is not safe at all for bathing. When you go down the waterfall,
+you will get a very beautiful experience.
+Sari Falls, Jodu Falls, Lebanon Falls, Hulu Ganga Falls, Taliya Vetuna Falls,
+all these waterfalls are located in the center of Hulu Ganga town.
+After traveling 3 km from Hulu Ganga to Babarella village,
+you will find Sari Falls, Jodu Falls and Lebanon Falls.
+These three types of waterfalls are It is located within
+an area of only one kilometer. Also, the city of Hulu Ganga
+Falls is located near Hulu Ganga. After walking about
+2km on the road to the south near the bridge of the city,
+you will find Thalia Fallen Falls."
+                android:textColor="#000000"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

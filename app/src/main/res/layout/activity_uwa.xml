@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg03"
+    tools:context=".uwa">
+
+    <ImageButton
+        android:id="@+id/imgbtn_monaragala"
+        android:layout_width="309dp"
+        android:layout_height="199dp"
+        android:contentDescription="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtn_badulla"
+        app:layout_constraintVertical_bias="0.343"
+        app:srcCompat="@drawable/monaragala" />
+
+    <TextView
+        android:id="@+id/txt_monaragala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MONARAGALA"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imgbtn_monaragala"
+        app:layout_constraintEnd_toEndOf="@+id/imgbtn_monaragala"
+        app:layout_constraintStart_toStartOf="@+id/imgbtn_monaragala"
+        app:layout_constraintTop_toTopOf="@+id/imgbtn_monaragala" />
+
+    <TextView
+        android:id="@+id/txt_uwa3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="UWA"
+        android:textColor="#03D2BE"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_3sl" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_badulla"
+        android:layout_width="309dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="68dp"
+        android:contentDescription="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_uwa3"
+        app:srcCompat="@drawable/badulla" />
+
+    <TextView
+        android:id="@+id/txt_badulla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BADULLA"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imgbtn_badulla"
+        app:layout_constraintEnd_toEndOf="@+id/imgbtn_badulla"
+        app:layout_constraintStart_toStartOf="@+id/imgbtn_badulla"
+        app:layout_constraintTop_toTopOf="@+id/imgbtn_badulla" />
+
+    <TextView
+        android:id="@+id/txt_3sl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Sri Lanka"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

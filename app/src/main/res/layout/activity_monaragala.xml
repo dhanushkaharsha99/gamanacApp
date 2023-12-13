@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg05"
+    tools:context=".monaragala">
+
+    <TextView
+        android:id="@+id/txt_kandy2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="MONARAGALA"
+        android:textColor="#03D2BE"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_central3" />
+
+    <TextView
+        android:id="@+id/txt_central3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="UWA"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="301dp"
+        android:layout_height="491dp"
+        android:contentDescription="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_kandy2"
+        app:layout_constraintVertical_bias="0.431">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imgbtn_yala"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp"
+                android:contentDescription="true"
+                app:srcCompat="@drawable/yala" />
+
+            <TextView
+                android:id="@+id/txt_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YALA NATIONAL PARK"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <ImageButton
+                android:id="@+id/imgbtn_pareiyan_ella"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp"
+                android:contentDescription="true"
+                app:srcCompat="@drawable/pareiyan_ella01" />
+
+            <TextView
+                android:id="@+id/txt_pareiyan_ella"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PAREIYAN ELLA"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <ImageButton
+                android:id="@+id/imgbtn_maragala_mountain"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp"
+                android:contentDescription="true"
+                app:srcCompat="@drawable/maragala_mountain1" />
+
+            <TextView
+                android:id="@+id/txt_maragala_mountain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MARAGALA MOUNTAIN"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

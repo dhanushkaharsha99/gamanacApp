@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg06"
+    tools:context=".kabaragalakandy">
+
+    <ImageView
+        android:id="@+id/imgview_kabaragala"
+        android:layout_width="377dp"
+        android:layout_height="232dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/kabaragala3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KABARAGALA"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.088" />
+
+    <TextView
+        android:id="@+id/txt_kandy3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KANDY"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="339dp"
+        android:layout_height="165dp"
+        android:contentDescription="true"
+        android:duplicateParentState="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_loc_belwood">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_kabaragala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kabaragala is the highest peak in the Dolosbage Mountain Range in Sri Lanka.  This is located on the border between the districts of Kagalle and Kandy.  The height of the peak is 1506 m above sea level. The place is superb for hikers and campers. There are two major routes to reach this mountain.  one from Nawalapitiya and the other from the Gampola side.  The distance from Colombo to Kabaragala is 11  km, and Kandy to Kabaragala is 40 km.  The distance from Gampola is 24 km, and from Nawalapitiya, it is 20 km.  If you are coming from Colombo, then you can come to Nawalapitiya via Avissawella and Ginigathhena. Someone can easily come to Gampola starting from the Kandy side.  The hike will start in Maryville Junction. You will first meet a Kovil, and there is a concrete road towards the mountain.  Then you will enter a tea estate. Now your route will narrow, and you will go on a narrow footpath.  But it is clear to identify. Next, you will enter a small forest with pine trees.  One hour of trekking will take you to the first viewpoint. It is really amazing.  You can see scenic pictures of the surroundings.  The viewpoint is the spot where most people end their journey.  But you should go further to reach the summit.  The terrain surface is very much like the Horton Plains.  Mana trees and Savana-type plants can be observed.  The huge drop toward the bottom is also similar to the end of the world.  Almost two hours of hiking will take you to the summit of the Kabaragala Mountains.  The view from the summit is absolutely amazing. You will surely be amazed!  You can observe Kothmale Reservior, Peacock Hills, Kothmale Area, Dolosbage Area, Pusellawa, Ambuluwawa, and Sri Pada Mountain.  As well, you can view many unknown mountains and villages. This scenic picture is superb for a photographer.  The morning is the best time to observe the surroundings. Most of the time, mist will cover the whole area.  The clouds beneath the mountains are another well-known Kabaragala sight.  If you are lucky, you can surely experience this beautiful picture.  Kabaragala is also a fantastic spot for camping. Many local tourists visit the area in search of adventure.  There is enough space for camping on the top of the mountain.  Woods can be found all around. The area is very busy during the holidays.  Many locals come to camp here. The night is cool and breezy.  You can observe the lights of the surrounding places in the night.  That also looks very scenic."
+                android:textColor="#000000"
+                android:textStyle="bold|italic"
+
+
+                />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_loc_belwood"
+        android:layout_width="183dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="28dp"
+        android:text="Location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgview_kabaragala" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

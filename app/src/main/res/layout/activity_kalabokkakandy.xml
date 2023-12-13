@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg06"
+    tools:context=".kalabokkakandy">
+
+    <Button
+        android:id="@+id/btn_loc_kalabokka"
+        android:layout_width="183dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="36dp"
+        android:text="Location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgview_kalabokka" />
+
+    <ImageView
+        android:id="@+id/imgview_kalabokka"
+        android:layout_width="323dp"
+        android:layout_height="219dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/kalabokka01" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="KALABOKKA"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_kandy8" />
+
+    <TextView
+        android:id="@+id/txt_kandy8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="KANDY"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="344dp"
+        android:layout_height="200dp"
+        android:contentDescription="true"
+        android:duplicateParentState="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_loc_kalabokka">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_kabaragala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kelabokka, one of the most beautiful places in Sri Lanka,
+is located in Panwila Kabaragala area of Matale District.
+ Located 30 km from Matale and 37 km from Kandy.
+It is located at a height of 1175 meters and has become a trend spot with amazing views.
+It is located on the border of Matale and Kandy districts
+
+After passing the Rotukade Junction on the Colombo - Kandy - Wattegama -
+ Panwila - Kabaragala road, you will find the entrance to Kelabokka Estate.
+
+If you come from here by a short road, it is 3 km to
+the campsite. But it is difficult to come by car on this road.
+
+If you are coming from a long way, the campsite is
+about 6 km away. Only a vehicle with good ground clearance can come on that road.
+
+Kelabokka Campground has a clear view of the 5 mountains
+of Siripadaya, Hunnasgiriya, Namunukula, Piduruthalagala,
+Atipola, Atigala, Ambokka, Arangala, Kardigala, Belyakanda,
+ Menikdena, Gamduwa, Maussakanda, Pathagala, Rivaston, Kirigalpotta,
+Gombania, Yakungehela, Kandasamigala and Knuckles."
+                android:textColor="#000000"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

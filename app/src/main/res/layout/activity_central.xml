@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg03"
+    tools:context=".central">
+
+    <TextView
+        android:id="@+id/txt_central3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="CENTRAL"
+        android:textColor="#03D2BE"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_2sl" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_matale2"
+        android:layout_width="280dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="View"
+        app:layout_constraintBottom_toTopOf="@+id/imgbtn_nuwaraeliya"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtn_kandy"
+        app:layout_constraintVertical_bias="0.348"
+        app:srcCompat="@drawable/matale" />
+
+    <TextView
+        android:id="@+id/txt_matale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MATALE"
+        android:textColor="#F6F6F6"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imgbtn_matale2"
+        app:layout_constraintEnd_toEndOf="@+id/imgbtn_matale2"
+        app:layout_constraintStart_toStartOf="@+id/imgbtn_matale2"
+        app:layout_constraintTop_toTopOf="@+id/imgbtn_matale2" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_nuwaraeliya"
+        android:layout_width="280dp"
+        android:layout_height="109dp"
+        android:layout_marginBottom="60dp"
+        android:contentDescription="View"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/nuwaraeliya" />
+
+    <TextView
+        android:id="@+id/txt_nuwaraeliya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NUWARAELIYA"
+        android:textColor="#FBFBFB"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imgbtn_nuwaraeliya"
+        app:layout_constraintEnd_toEndOf="@+id/imgbtn_nuwaraeliya"
+        app:layout_constraintStart_toStartOf="@+id/imgbtn_nuwaraeliya"
+        app:layout_constraintTop_toTopOf="@+id/imgbtn_nuwaraeliya" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_kandy"
+        android:layout_width="280dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="48dp"
+        android:contentDescription="View"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_central3"
+        app:srcCompat="@drawable/kandy" />
+
+    <TextView
+        android:id="@+id/txt_kandy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KANDY"
+        android:textColor="#EFEFEF"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imgbtn_kandy"
+        app:layout_constraintEnd_toEndOf="@+id/imgbtn_kandy"
+        app:layout_constraintStart_toStartOf="@+id/imgbtn_kandy"
+        app:layout_constraintTop_toTopOf="@+id/imgbtn_kandy" />
+
+    <TextView
+        android:id="@+id/txt_2sl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Sri Lanka"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

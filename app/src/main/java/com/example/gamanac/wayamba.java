@@ -1,0 +1,42 @@
+package com.example.gamanac;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.view.Window;
+import android.widget.ImageButton;
+
+public class wayamba extends AppCompatActivity {
+
+    ImageButton button1, button2;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        // Hide the action bar
+        supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
+        setContentView(R.layout.activity_wayamba);
+
+        button1 = findViewById(R.id.imgbtn_puttalam);
+        button2 = findViewById(R.id.imgbtn_kurunagala);
+
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(),puttalama.class);
+                startActivity(i);
+            }
+        });
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(),kurunagala.class);
+                startActivity(i);
+            }
+        });
+
+    }
+}

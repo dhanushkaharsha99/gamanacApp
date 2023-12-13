@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg05"
+    tools:context=".galle">
+
+    <TextView
+        android:id="@+id/txt_galle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="GALLE"
+        android:textColor="#03D2BE"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_south" />
+
+    <TextView
+        android:id="@+id/txt_south"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="SOUTH"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="301dp"
+        android:layout_height="491dp"
+        android:contentDescription="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_galle"
+        app:layout_constraintVertical_bias="0.431">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imgbtn_hikkaduwa"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp"
+                android:contentDescription="true"
+                app:srcCompat="@drawable/hikkaduwa" />
+
+            <TextView
+                android:id="@+id/txt_hikkaduwa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HIKKADUWA"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <ImageButton
+                android:id="@+id/imgbtn_rumassala"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp"
+                android:contentDescription="true"
+                app:srcCompat="@drawable/rumassala" />
+
+            <TextView
+                android:id="@+id/txt_rumassala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RUMASSALA"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <ImageButton
+                android:id="@+id/imgbtn_Kaluwala_Natural_Pool"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp"
+                android:contentDescription="true"
+                app:srcCompat="@drawable/kaluwala_pool01" />
+
+            <TextView
+                android:id="@+id/txt_Kaluwala_Natural_Pool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KALUWALA NATURAL POOL"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

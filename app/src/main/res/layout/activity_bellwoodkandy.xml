@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg06"
+    tools:context=".Bellwoodkandy">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BELWOOD"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <TextView
+        android:id="@+id/txt_kandy5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KANDY"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <ImageView
+        android:id="@+id/imgview_belwood"
+        android:layout_width="331dp"
+        android:layout_height="211dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.058"
+        app:srcCompat="@drawable/belwood" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="335dp"
+        android:layout_height="170dp"
+        android:contentDescription="true"
+        android:duplicateParentState="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_loc_belwood">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_kabaragala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bellwood is
+One of the best places at a distance of 20 km from Kandy.
+It is a beautiful place with a beautiful view.
+It took us about an hour to go to that place on bikes from kandy.
+You can take the bike on top. There is a beautiful lake below.
+Even a vehicle can be put under and go up.
+The perfect place for photo shoots.
+From Kandy, leave the Ampitiya Talathuoya road and go to Talathuoya and turn right at the
+ junction there and go straight. Easy to find the way
+Those of you who go to Belwood can see Galaha Thirivana Nidhi,
+ Galaha Oya and Muthukelina Lake.
+"
+                android:textColor="#000000"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_loc_belwood"
+        android:layout_width="183dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="36dp"
+        android:text="Location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgview_belwood" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
